@@ -35,6 +35,11 @@ function Navbar() {
         }} style={{
           cursor:'pointer'
           }}>Signup</Link>
+        <Link to={"/profile"} onClick={() => {
+
+        }} style={{
+          cursor: 'pointer'
+        }}>Profile</Link>
 
   </div>
     </div>
